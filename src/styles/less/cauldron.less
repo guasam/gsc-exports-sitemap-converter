@@ -1,0 +1,59 @@
+//-----------------------------------------
+// Pseudo elements
+//-----------------------------------------
+
+/* Selection */
+::selection {
+  background: rgb(234 137 54 / 35%);
+}
+
+/** Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+
+  &-track {
+    background: #2f2f2f52;
+  }
+  &-thumb {
+    background: rgba(59, 59, 59, 0.541);
+  }
+  &-thumb:hover {
+    background: #555;
+  }
+}
+
+//-----------------------------------------
+// Flex layout helpers
+//-----------------------------------------
+
+.gflex {
+  display: flex;
+  flex-direction: column;
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+  &-centered {
+    align-items: center;
+    justify-content: center;
+  }
+  &-separated {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &-row {
+    flex-grow: 1;
+  }
+  &-row {
+    flex-direction: row;
+  }
+  &-wrap {
+    flex-wrap: wrap;
+  }
+  &-justify-center {
+    justify-content: center;
+  }
+  &-align-center {
+    align-items: center;
+  }
+}
