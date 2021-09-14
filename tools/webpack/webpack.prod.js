@@ -1,3 +1,5 @@
+const { rootPath } = require('../common/utils');
+
 module.exports = {
   mode: 'production',
   entry: ['./src/appRenderer.tsx'],
@@ -5,6 +7,7 @@ module.exports = {
     rules: require('./rules'),
   },
   output: {
+    path: rootPath('build'),
     filename: '[name].[chunkhash].js',
     chunkFilename: '[name].[chunkhash].chunk.js',
     clean: true,
