@@ -1,9 +1,9 @@
 {
-  "name": "ghpage-react-env",
+  "name": "gsc-exports-sitemap-converter",
   "version": "0.1.0",
   "description": "Minimal boilerplate for writing Web Applications using React, Webpack & TypeScript in 2021",
   "license": "MIT",
-  "homepage": "http://guasam.github.io/myapp",
+  "homepage": "http://guasam.github.io/gsc-exports-sitemap-converter",
   "author": {
     "name": "Guasam",
     "url": "https://github.com/guasam"
